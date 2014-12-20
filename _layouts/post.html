@@ -8,7 +8,7 @@ layout: layout
 				{% if page.link %}
 				  <h3> <i class="icon-external-link"></i> <a href="{{ page.link }}" class="link">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h3>
 				{% else %}
-				  <h3> <i class="icon-info"></i> <a href="/blog/{{ page.url }}">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h3>
+				  <h3> <i class="icon-info"></i> <a href="/{{ page.url }}">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h3>
 				{% endif %}
   		</header>
     	{{ content }}
