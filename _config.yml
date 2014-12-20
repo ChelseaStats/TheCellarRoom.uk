@@ -1,4 +1,4 @@
-baseurl: https://TheCellarRoom.github.io
+baseurl: https://TheCellarRoom.github.io/posts/
 future: true
 lsi: true
 highlighter: pygments
