@@ -1,0 +1,21 @@
+---
+
+layout: layout
+title: TCR
+description: Archive
+
+---
+
+<div class="content">
+	{% for post in site.posts %}
+	<ul class="posts">
+	
+      <li style="margin-bottom:0.5em;">
+          <small>
+          {{ post.date | date: "%Y-%m-%d" }} <i class="icon-star"></i> <a href="/blog{{ post.url }}">{{ post.title }}</a>
+          </small>
+      </li>
+            
+	</ul>
+	{% endfor %}
+</div>

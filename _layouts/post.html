@@ -1,0 +1,25 @@
+---
+layout: layout
+---
+
+<div class="content">
+	<article class="post single">
+  		<header>
+				{% if page.link %}
+				  <h3> <i class="icon-external-link"></i> <a href="{{ page.link }}" class="link">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h3>
+				{% else %}
+				  <h3> <i class="icon-info"></i> <a href="/blog/{{ page.url }}">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h3>
+				{% endif %}
+  		</header>
+    	{{ content }}
+  	    <p>&nbsp;</p>
+        <p>
+         <small> 
+             {{ page.date | date: "%Y-%m-%d" }} <i class="icon-star"></i>
+             <a href="{{ post.url }}" class="permalink" title="Permalink">permalink</a>
+	</small>	
+	</p>    
+        <p>&nbsp;</p>
+        {% include disqus_comments.html %}
+    </article>
+</div>
