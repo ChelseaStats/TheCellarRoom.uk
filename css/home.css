@@ -176,12 +176,13 @@ a.btn,  a.btn:hover {text-decoration:none}
 	.details .container h2 { text-align:left;}
 
 	h1.intro-header a{
-		font-size: 64px;
+		font-size: 62px;
 		font-weight: 900;
 		text-transform: uppercase;
 		color: #fff;
 		text-decoration: none ;
-		margin-bottom:10px;
+		text-align:center;
+		padding-bottom:10px;
 	}
 }
 
