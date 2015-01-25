@@ -40,8 +40,8 @@ a, a:hover { text-decoration:underline; color: #1b437c;}
 	}
 
 
-.intro-header h1 {
-	font-size: 115px;ß
+.intro-header h1 a{
+	font-size: 115px;
 	font-weight: 900;
 	text-transform: uppercase;
 	color: #fff;
