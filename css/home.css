@@ -55,7 +55,7 @@ a.btn,  a.btn:hover {text-decoration:none}
 	#actions h2{color: #1b437c; font-weight: 400; }
 	
 	.details, #about {text-align: justify; padding: 25px; color: #000; height:100%; position:relative; margin-bottom:35px;}
-	.details h2, #details h3, #about h2, #about h3{font-weight: 400;}
+	.details h2, .details h3, #about h2, #about h3{font-weight: 400;}
 	.details h2, #about h2{color: #1b437c; margin-bottom: 35px; }
 	.details h3, #about h3{color: #000;}
 	.details h3 span, #about h3 span{font-weight: 300;}
