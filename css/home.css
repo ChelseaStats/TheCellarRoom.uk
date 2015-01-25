@@ -162,7 +162,7 @@ a.btn,  a.btn:hover {text-decoration:none}
 
 @media only screen and (max-device-width: 480px) {
  	body{padding: 0;}
- 	#header{text-align: center; padding-left: 10px;}
+ 	#header{text-align: center; padding-left: 10px; padding-bottom:50px;}
  	.banner{height: 300px;}
  	#footer{padding: 10px;}
  	#signin{margin-right: 10px;}
@@ -181,7 +181,6 @@ a.btn,  a.btn:hover {text-decoration:none}
 		text-transform: uppercase;
 		color: #fff;
 		text-decoration: none ;
-		margin-bottom:20px;
 	}
 }
 
