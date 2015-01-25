@@ -189,7 +189,7 @@ a.btn,  a.btn:hover {text-decoration:none}
 	ul, li { text-align:left; }
 	.number { margin:auto auto; text-align:center; white-space:nowrap;}
 	.details .container h2 { text-align:left;}
-	.right{float: left;}
+	.pull-right{float: left; text-align:left;}
 
 	h1.intro-header a{
 		font-size: 64px;
