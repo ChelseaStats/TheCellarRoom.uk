@@ -21,7 +21,7 @@ a, a:hover { text-decoration:underline; color: #1b437c;}
 .green p{color: #000;}
 .feature { float:right; padding:1em; }
 	
-	#details li a{color: #1b437c; border-bottom: 1px dotted white; text-decoration: none; }
+	.details li a{color: #1b437c; border-bottom: 1px dotted white; text-decoration: none; }
 	
 	#header .btn {
 		padding: 8px 15px;
@@ -54,16 +54,16 @@ a.btn,  a.btn:hover {text-decoration:none}
 	#actions{text-align: center; padding: 25px;}
 	#actions h2{color: #1b437c; font-weight: 400; }
 	
-	#details, #about {text-align: justify; padding: 25px; color: #000; height:100%; position:relative; margin-bottom:35px;}
-	#details h2, #details h3, #about h2, #about h3{font-weight: 400;}
-	#details h2, #about h2{color: #1b437c; margin-bottom: 35px; }
-	#details h3, #about h3{color: #000;}
-	#details h3 span, #about h3 span{font-weight: 300;}
+	.details, #about {text-align: justify; padding: 25px; color: #000; height:100%; position:relative; margin-bottom:35px;}
+	.details h2, #details h3, #about h2, #about h3{font-weight: 400;}
+	.details h2, #about h2{color: #1b437c; margin-bottom: 35px; }
+	.details h3, #about h3{color: #000;}
+	.details h3 span, #about h3 span{font-weight: 300;}
 	#about ul{ margin-left: 0;}
 	#about li{list-style: none; line-height: 36px; text-align:left;}
 	
-	#details ul { list-style-type: square; padding-left:2em; line-height: 36px;}
-	#details li {list-style-type:square; line-height: 36px; text-align:left;}
+	.details ul { list-style-type: square; padding-left:2em; line-height: 36px;}
+	.details li {list-style-type:square; line-height: 36px; text-align:left;}
 
 	#midway, #local, #contact {text-align: center; padding: 25px; color: #fff; height:100%; position:relative; margin-bottom:35px;}
 	#midway, #local, #contact h2,h3{font-weight: 400;}
@@ -173,7 +173,7 @@ a.btn,  a.btn:hover {text-decoration:none}
 	.feature { float:none; padding:1em; margin:auto auto;}
 	ul, li { text-align:left; }
 	.number { margin:auto auto; text-align:center; white-space:nowrap;}
-	#details .container h2 { text-align:left;}
+	.details .container h2 { text-align:left;}
 }
 
 
